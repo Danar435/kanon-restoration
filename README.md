@@ -51,6 +51,11 @@ Replace with  `C0 03 00 00 00 00 80 3F`
 Search for    `90 02 00 00 E8 8E 47 DD` <br>
 Replace with  `6D 03 00 00 E8 8E 47 DD`
 
+---
+
+### Helper.py
+
+I made a helper script for development purposes. Look inside of it for more information on how to use it. It's mostly to handle bulk and repetitive tasks.
 
 ## Special Thanks
 
