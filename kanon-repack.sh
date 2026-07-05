@@ -101,10 +101,11 @@ repack "bgcg"
 repack "charcg"
 repack "parts"
 repack "syscg"
+repack "othcg"
 
 # Patch out character overlays in CHARCG.PAK
 
-dd if=/dev/zero of="$output_path/files/CHARCG.PAK" bs=1 seek=$((0x3934)) count=$((0x3C5F - 0x3934)) conv=notrunc > /dev/null 2>&1
+dd if=/dev/zero of="$output_path/files/CHARCG.PAK" bs=1 seek=$((0x3934)) count=$((0x3D5F - 0x3934)) conv=notrunc > /dev/null 2>&1
 
 # Final message
 

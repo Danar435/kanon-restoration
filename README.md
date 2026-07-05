@@ -35,27 +35,11 @@ To create the patch, run:
 ./kanon-repack.sh /path/to/game/folder/
 ```
 
-The script will repack the files and create an `output` folder containing the patched pak files. 
+The script will repack the files and create an `output` folder containing the patched pak files. Use the xdelta file under `source/auxiliary-files` to patch the executable.
 
 ## Notes
 
-To change hard-coded values, open `Kanon.exe` with a hex editor and use the search function. Edit the following bytes with what's shown. Only the first 2 bytes really matters, the rest is just to pinpoint the location.
-
-### Change Kanon's (also Air's) window to 960p: 
-
-Search for    `D0 02 00 00 00 00 80 3F` <br>
-Replace with  `C0 03 00 00 00 00 80 3F`
-
-### Move snowflake down: 
-
-Search for    `90 02 00 00 E8 8E 47 DD` <br>
-Replace with  `6D 03 00 00 E8 8E 47 DD`
-
----
-
-### Helper.py
-
-I made a helper script for development purposes. Look inside of it for more information on how to use it. It's mostly to handle bulk and repetitive tasks.
+A debug menu has been found. To enable it, add `Hd5aVLTwSitU` as a launch option under "Properties" in Steam. Now you'll have an option to view and change flags from the quick menu in-game. Enabling mouse gestures and swiping up on the "START" button in the main menu opens a different menu that allows you to jump to different seen (scenario) files.
 
 ## Special Thanks
 
