@@ -10,10 +10,10 @@ This patch is under construction. The progress will be a lot slower compared to 
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/Danar435/kanon-restoration/refs/heads/main/assets/SS1.png">
-    <img src=".github/assets/SS1.png" alt="CGs" width="350"/>
+    <img src="assets/SS1.png" alt="CGs" width="350"/>
   </a>
   <a href="https://raw.githubusercontent.com/Danar435/kanon-restoration/refs/heads/main/assets/SS2.png">
-    <img src=".github/assets/SS2.png" alt="Characters" width="350"/>
+    <img src="assets/SS2.png" alt="Characters" width="350"/>
   </a>
 </p>
 
