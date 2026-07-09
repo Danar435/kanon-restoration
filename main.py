@@ -8,7 +8,7 @@ import subprocess
 import sys
 
 VERSION = "1.0.0"
-SOURCE_SIZE = 488
+SOURCE_SIZE = 680
 
 # Needed for Gnome to work properly
 os.environ['GTK_THEME'] = 'Adwaita:light'
