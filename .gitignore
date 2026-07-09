@@ -2,3 +2,5 @@
 /output
 /backup
 /workdir
+/build
+/dist
