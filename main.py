@@ -8,7 +8,7 @@ import subprocess
 import sys
 
 VERSION = "1.0.0"
-SOURCE_SIZE = 464
+SOURCE_SIZE = 472
 
 # Needed for Gnome to work properly
 os.environ['GTK_THEME'] = 'Adwaita:light'
@@ -167,6 +167,7 @@ def main():
 
     # Set textbox opacity
     print("Processing textbox opacity...", flush=True)
+    progress += 1
     repack(pakutil, source / "textbox-files" / args.textbox , input, "parts", progress, total)
 
     # Remove overlays in characters pak
