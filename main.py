@@ -7,7 +7,7 @@ import shutil
 import subprocess
 import sys
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 SOURCE_SIZE = 680
 
 # Needed for Gnome to work properly
